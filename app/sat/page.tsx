@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function ServicioTecnico() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
@@ -6,10 +8,10 @@ export default function ServicioTecnico() {
           <h1 className="text-2xl font-bold">SALGUEDA</h1>
           <nav>
             <ul className="flex space-x-4">
-              <li><a href="/" className="hover:underline">Home</a></li>
-              <li><a href="/producto" className="hover:underline">Producto</a></li>
-              <li><a href="/sat" className="hover:underline">Servicio Técnico</a></li>
-              <li><a href="/recambios" className="hover:underline">Pedir Recambios</a></li>
+              <li><Link href="/" className="hover:underline">Home</Link></li>
+              <li><Link href="/producto" className="hover:underline">Producto</Link></li>
+              <li><Link href="/sat" className="hover:underline">Servicio Técnico</Link></li>
+              <li><Link href="/recambios" className="hover:underline">Pedir Recambios</Link></li>
             </ul>
           </nav>
         </div>

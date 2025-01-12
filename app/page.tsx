@@ -22,8 +22,8 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-4">EL ARTE DEL FUEGO</h2>
           <p className="text-lg mb-6">Encuentra la estufa perfecta para tu hogar en nuestra amplia selección de modelos y estilos.</p>
           <div className="flex justify-center space-x-4">
-            <Button as="a" href="https://www.salgueda.com/presupuesto" className="bg-blue-600 text-white px-4 py-2 rounded">Presupuesto Gratuito</Button>
-            <Button as="a" href="https://www.salgueda.com/producto" className="bg-green-600 text-white px-4 py-2 rounded">Descubrir</Button>
+            <a href="https://www.salgueda.com/presupuesto" className="bg-blue-600 text-white px-4 py-2 rounded">Presupuesto Gratuito</a>
+            <a href="https://www.salgueda.com/producto" className="bg-green-600 text-white px-4 py-2 rounded">Descubrir</a>
           </div>
         </section>
 
@@ -51,8 +51,8 @@ export default function Home() {
           <h3 className="text-3xl font-semibold mb-4">Descubre el calor y el diseño de Salgueda</h3>
           <p className="text-lg mb-6">Visítanos hoy mismo y encuentra la estufa perfecta para tu hogar. Descubre cómo podemos hacer que tu espacio vital sea más cálido, hermoso y eficiente energéticamente. ¡No esperes más para disfrutar del calor y el diseño de Salgueda!</p>
           <div className="flex justify-center space-x-4">
-            <Button as="a" href="https://www.salgueda.com/presupuesto" className="bg-blue-600 text-white px-4 py-2 rounded">Presupuesto</Button>
-            <Button as="a" href="https://www.salgueda.com/producto" className="bg-green-600 text-white px-4 py-2 rounded">Descubrir</Button>
+            <a href="https://www.salgueda.com/presupuesto" className="bg-blue-600 text-white px-4 py-2 rounded">Presupuesto</a>
+            <a href="https://www.salgueda.com/producto" className="bg-green-600 text-white px-4 py-2 rounded">Descubrir</a>
           </div>
         </section>
       </main>
